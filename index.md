@@ -11,7 +11,6 @@
 
 			<!-- Header -->
 				<div id="header">
-
 					<!-- Inner -->
 						<div class="inner">
 							<header>
