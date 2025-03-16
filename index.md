@@ -1,4 +1,3 @@
-
 <html>
 	<head>
 		<title>Helios by HTML5 UP</title>
@@ -28,7 +27,6 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="index.html">Home</a></li>
 								<li>
 									<a href="#">Dropdown</a>
 									<ul>
@@ -47,10 +45,7 @@
 										<li><a href="#">Veroeros feugiat</a></li>
 									</ul>
 								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-							</ul>
+						</ul>
 						</nav>
 
 				</div>
