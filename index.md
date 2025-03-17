@@ -51,8 +51,8 @@
 										<li><a href="#">Veroeros feugiat</a></li>
 									</ul>
 								</li>
-								<li><a href="website/aboutme.html">About Me</a></li>
-								<li><a href="website/services.html">Services</a></li>
+								<li><a href="aboutme.html">About Me</a></li>
+								<li><a href="services.html">Services</a></li>
 								<li><a href="no-sidebar.html">No Sidebar</a></li>
 							</ul>
 						</nav>
