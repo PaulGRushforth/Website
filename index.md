@@ -1,3 +1,9 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Helios by HTML5 UP</title>
@@ -11,12 +17,13 @@
 
 			<!-- Header -->
 				<div id="header">
+
 					<!-- Inner -->
 						<div class="inner">
 							<header>
 								<h1><a href="index.html" id="logo">Helios</a></h1>
 								<hr />
-								<p>Take a breath...</p>
+								<p>Another fine freebie by HTML5 UP</p>
 							</header>
 							<footer>
 								<a href="#banner" class="button circled scrolly">Start</a>
@@ -25,6 +32,8 @@
 
 					<!-- Nav -->
 						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
 								<li>
 									<a href="#">Dropdown</a>
 									<ul>
@@ -43,7 +52,10 @@
 										<li><a href="#">Veroeros feugiat</a></li>
 									</ul>
 								</li>
-						</ul>
+								<li><a href="left-sidebar.html">Left Sidebar</a></li>
+								<li><a href="right-sidebar.html">Right Sidebar</a></li>
+								<li><a href="no-sidebar.html">No Sidebar</a></li>
+							</ul>
 						</nav>
 
 				</div>
