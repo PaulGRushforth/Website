@@ -53,19 +53,31 @@
 
 						<!-- Content -->
 							<section id="content">
-								<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-								<h3>Dolore Amet Consequat</h3>
-								<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam cubilia adipiscing interdum aliquet aliquet placerat cubilia accumsan cep ante nullam adipiscing tortor odio. Iaculis adipiscing accumsan nascetur in cras. Lacinia placerat.</p>
-								<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique faucibus magna adipiscing aliquet blandit nisi dolor accumsan nascetur lorem. Vis enim. Curae. Mi arcu vis aliquam ipsum non accumsan ac mi faucibus amet eu accumsan erat interdum semper accumsan. Eu sagittis tellus accumsan neque lorem penatibus in porttitor. Vivamus commodo curae. Condimentum lobortis praesent id ac lorem. Lorem vis ipsum dolor feugiat consequat dolore adipiscing.</p>
-								<h3>Sed Magna Ornare</h3>
-								<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus. In accumsan lorem nunc ultrices a ac eu accumsan ac id nullam. Nec lobortis. Faucibus. Mi commodo laoreet arcu at non mi lacinia aliquet non lobortis phasellus accumsan nascetur varius. Integer orci porttitor eu faucibus aliquet faucibus ac accumsan adipiscing accumsan odio. Ut adipiscing.</p>
-								<ul>
-									<li>Faucibus orci lobortis ac adipiscing integer.</li>
-									<li>Col accumsan arcu mi aliquet placerat.</li>
-									<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-									<li>Blandit massa non blandit tempor interdum.</li>
-									<li>Lacinia mattis arcu nascetur lobortis.</li>
-								</ul>
+								</div>
+								<div class="col-4 col-12-medium">
+									<bloackquote>“Paul is an excellent coach; with his support, knowledge and reflective
+									skills I was able to work through the pros and cons of whether to transition from one
+									senior post to another. I went on to achieve this change smoothly whilst being
+									mindful of my own boundaries. He was not afraid to appropriately challenge me and
+									was a wealth of knowledge on various coaching techniques and useful exercises,
+									which helped to draw out and explore my hopes and fears.”</blockquote>
+									<p><strong> Dr A Fry, GP Partner & Director of Greener Practice</Strong></p>
+								</div>
+								<div class="col-4 col-12-medium">
+									<blockquote>“Paul is fantastic at fostering a open and safe environment that always made
+									me feel like I was able to share my thoughts in confidence. Every session felt
+									like it was structured around me and what I wanted to achieve rather than a ‘paint by numbers’
+									approach that I have experienced with other coaches/mentors. Working with Paul
+									has enabled me to be calmer and more methodical in my approach to complex tasks,
+									I feel like my ability to communicate and get buy in from senior stakeholders within
+									my business has vastly improved in the past 12 months and there is no doubt in my
+									mind that is due to my work with Paul.<br>
+									I would recommend Paul to anyone who is struggling with communicating complex projects
+									or ideas to senior stakeholders or is looking for support with exploring how to effectively
+									mange and deliver cross departmental projects.”</bloackquote>
+									<p><strong> Cameron, Technology Sales Manager</Strong></p>
+								</div>
+
 							</section>
 
 					</div>
