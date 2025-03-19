@@ -51,13 +51,32 @@
 						</header>
 
 						<!-- Content -->
-						<section id="content">
-						<div class="container">
-							<div>
-								
-							</div>
-						</div>
+						<section>
+						    <form class="cta" id="enquiryForm">
+						        <h2>Get in Touch</h2>
+						
+						        <label for="name">Name</label>
+						        <input type="text" id="name" name="name" placeholder="Your Name" required>
+						
+						        <label for="email">Email Address</label>
+						        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+						
+						        <label for="message">Message</label>
+						        <textarea id="message" name="message" placeholder="How can I help?" rows="4" required></textarea>
+						
+						        <fieldset>
+						            <legend>Preferred Contact Method</legend>
+						            <input type="checkbox" id="contact-email" name="contact_preference" value="email">
+						            <label for="contact-email">Email</label>
+						
+						            <input type="checkbox" id="contact-phone" name="contact_preference" value="phone">
+						            <label for="contact-phone">Phone</label>
+						        </fieldset>
+						
+						        <button type="submit">Submit</button>
+						    </form>
 						</section>
+
 					</div>
 				</div>
 		</div>
