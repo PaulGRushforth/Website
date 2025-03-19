@@ -102,32 +102,41 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
-document.getElementById("contactForm").addEventListener("submit", function(event) {
-  event.preventDefault();
+document.addEventListener("DOMContentLoaded", function() {
+  const form = document.getElementById("contactForm");
 
-  let formData = {
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    message: document.getElementById("message").value,
-    contact: document.querySelector('input[name="contact"]:checked').value
-  };
+  if (!form) {
+    console.error("Form not found! Check if the ID matches.");
+    return;
+  }
 
-  fetch("https://script.google.com/macros/s/AKfycbyvCDlkk21rlJIuIs29eFLKf2YePGEqP1Mbrv1rkjpUdTs3Cv029ke4ui8Qa78lY2kKtg/exec", {
-    method: "POST",
-    mode: "cors",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(formData)
-  })
-  .then(response => response.json())
-  .then(data => {
-    console.log("Success:", data);
-    alert("Your message has been sent!");
-  })
-  .catch(error => {
-    console.error("Error:", error);
-    alert("There was an issue submitting your form.");
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    let formData = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      message: document.getElementById("message").value,
+      contact: document.querySelector('input[name="contact"]:checked').value
+    };
+
+    fetch("https://script.google.com/macros/s/AKfycbyvCDlkk21rlJIuIs29eFLKf2YePGEqP1Mbrv1rkjpUdTs3Cv029ke4ui8Qa78lY2kKtg/exec", {
+      method: "POST",
+      mode: "cors",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log("Success:", data);
+      alert("Your message has been sent!");
+    })
+    .catch(error => {
+      console.error("Error:", error);
+      alert("There was an issue submitting your form.");
+    });
   });
 });
 
