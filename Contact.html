@@ -102,34 +102,35 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
-$(document).ready(function(){
-    $("#enquiryForm").submit(function(event){
-        event.preventDefault(); // Prevent default form submission
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+  event.preventDefault();
 
-        let formData = {
-            name: $("#name").val(),
-            email: $("#email").val(),
-            message: $("#message").val(),
-            contact: $("input[name='contact_preference']:checked").map(function(){
-                return this.value;
-            }).get().join(", ")
-        };
+  let formData = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+    contact: document.querySelector('input[name="contact"]:checked').value
+  };
 
-        $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbw7n-npRfKkjEZDVOhIEKhhmZlQmBXB712mS9O1zEIye070Na3T5bNI8lAguvr5l6rhAw/exec",
-            type: "POST",
-            contentType: "application/json",
-            data: JSON.stringify(formData),
-            success: function(response) {
-                $("#responseMessage").text("Thank you! Your message has been sent.");
-                $("#enquiryForm")[0].reset();
-            },
-            error: function() {
-                $("#responseMessage").text("Oops! Something went wrong. Please try again.");
-            }
-        });
-    });
+  fetch("https://script.google.com/macros/s/AKfycbyvCDlkk21rlJIuIs29eFLKf2YePGEqP1Mbrv1rkjpUdTs3Cv029ke4ui8Qa78lY2kKtg/exec", {
+    method: "POST",
+    mode: "cors",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log("Success:", data);
+    alert("Your message has been sent!");
+  })
+  .catch(error => {
+    console.error("Error:", error);
+    alert("There was an issue submitting your form.");
+  });
 });
+
 </script>
 
 
