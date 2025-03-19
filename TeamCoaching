@@ -1,1 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Team Coaching</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
 
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Home</a></h1>
+					<nav id="nav">
+						<ul>							
+							<li>
+								<a href="#">Navigation</a>
+								<ul>
+									<li><a href="AboutMe.html">About Me</a></li>
+									<li>
+										<a href="#">Services</a>
+										<ul>
+											<li><a href="#">One to One Coaching</a></li>
+											<li><a href="#">Team Coaching</a></li>
+											<li><a href="#">Workshop Facilitation</a></li>
+											<li><a href="#">Business Consulting</a></li>
+										</ul>
+									</li>
+									<li><a href="Testimonials.html">Testimonials</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="button primary">Get in Touch</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>My Story</h2>
+							<p></p>
+						</header>
+
+						<!-- Content -->
+						<section id="content">
+						<div class="container">
+<section>
+    <h3>Coaching for Teams: Thriving Through Change Together</h3>
+
+    <h3>Change Doesn’t Just Happen Around Your Team—It Happens Within It</h3>
+    <p>Teams don’t stay the same. New members join, experienced ones move on, roles evolve, and priorities shift. Add external pressures—market shifts, restructures, new technologies—and it’s no wonder teams can struggle to keep up. Even high-performing teams can feel the strain when faced with <strong>uncertainty, misalignment, or resistance to change</strong>.</p>
+
+    <p>Left unaddressed, these challenges can lead to <strong>miscommunication, disengagement, and a loss of momentum</strong>. Teams that once thrived can find themselves stuck in unproductive cycles, struggling to adapt to what’s next.</p>
+
+    <p>And the impact doesn’t stop there—when teams lose focus, businesses feel the effects. <strong>Productivity drops, customer experience suffers, and revenue takes a hit.</strong> High turnover, burnout, and internal friction can turn short-term challenges into long-term performance issues.</p>
+
+    <p>But change doesn’t have to derail progress—it can be the spark that brings a team closer, strengthens collaboration, and creates new opportunities for success.</p>
+
+    <h3>Common Team Challenges in Times of Change</h3>
+    <ul>
+        <li><strong>Confusion Over Direction</strong> – Uncertainty about priorities, goals, or leadership expectations.</li>
+        <li><strong>Breakdowns in Communication</strong> – Silos, mixed messages, or difficult conversations being avoided.</li>
+        <li><strong>Struggles with Collaboration</strong> – Teams working alongside each other, rather than with each other.</li>
+        <li><strong>Resistance to Change</strong> – Pushback, skepticism, or low engagement when new ways of working emerge.</li>
+        <li><strong>Loss of Momentum</strong> – Once-motivated teams becoming reactive instead of proactive.</li>
+        <li><strong>Evolving Roles & Responsibilities</strong> – Shifting job scopes creating friction or lack of accountability.</li>
+        <li><strong>Balancing Performance & Wellbeing</strong> – Managing workloads and expectations without burnout.</li>
+    </ul>
+
+    <p>These aren’t just temporary bumps in the road—they can become <strong>long-term obstacles</strong> if teams don’t have the right support. Without intervention, businesses see <strong>increased mistakes, customer dissatisfaction, declining team morale, and a loss of competitive edge.</strong></p>
+
+    <h3>How Coaching Helps Teams Navigate Change</h3>
+    <p>Coaching gives teams the space, structure, and strategies to <strong>adapt, align, and perform at their best—no matter what’s changing around them</strong>.</p>
+
+    <ul>
+        <li><strong>Strengthening Connection</strong> – Helping teams communicate openly, build trust, and work as a unit.</li>
+        <li><strong>Shaping a Shared Vision</strong> – Aligning the team around common goals, values, and ways of working.</li>
+        <li><strong>Managing Conflict Constructively</strong> – Turning differences into productive discussions rather than roadblocks.</li>
+        <li><strong>Embedding Agility</strong> – Equipping teams with the mindset and habits to handle change with confidence.</li>
+        <li><strong>Reigniting Energy & Engagement</strong> – Breaking out of stagnation and building a culture of action and innovation.</li>
+    </ul>
+
+    <p>Through <strong>team coaching sessions</strong>, I work with groups to uncover what’s holding them back, create practical strategies for moving forward, and ensure everyone has the tools to contribute at their best. Whether your team is facing a major transition or simply wants to work together more effectively, coaching can <strong>turn challenges into growth opportunities</strong>.</p>
+
+    <h3>Let’s Build a Team That Thrives Through Change</h3>
+    <p>Change doesn’t have to be something teams endure—it can be what strengthens them. If your team is facing transition, challenge, or uncertainty, let’s work together to create <strong>alignment, resilience, and momentum</strong> for what’s ahead.</p>
+
+    <p><strong>🚀 Ready to get started? <a href="mailto:your-email@example.com">Let’s talk.</a></strong></p>
+</section>
+
+
+								</div>
+									
+								</div>
+							</div>
+						</div>
+						</section>
+					</div>
+				</div>
+		</div>
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:mail@breatheandsmile.co.uk" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Breathe & Smile. All rights reserved 2025.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
