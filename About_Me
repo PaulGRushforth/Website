@@ -1,1 +1,118 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>About Me</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
 
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Home</a></h1>
+					<nav id="nav">
+						<ul>							
+							<li>
+								<a href="#">Navigation</a>
+								<ul>
+									<li><a href="left-sidebar.html">About Me</a></li>
+									<li><a href="left-sidebar.html">My Approach</a></li>
+									<li><a href="left-sidebar.html">Who I Work With</a></li>
+									<li><a href="right-sidebar.html">Testimonials</a></li>
+									<li>
+										<a href="#">Services</a>
+										<ul>
+											<li><a href="#">One to One Coaching</a></li>
+											<li><a href="#">Team Coaching</a></li>
+											<li><a href="#">Workshop Facilitation</a></li>
+											<li><a href="#">Business Consulting</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="elements.html">Elements</a></li>
+							<li><a href="#" class="button primary">Get in Touch</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Testimonials</h2>
+							<p>What other people are saying about my coaching</p>
+						</header>
+
+						<!-- Content -->
+						<section id="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-6 col-12-medium">
+									<p>Change has been the constant thread throughout my career. I’ve spent over 24 years navigating,
+                  facilitating, and driving transformation across industries, teams, and technologies. Whether it’s
+                  helping organisations adapt to disruptive innovations or empowering individuals to find clarity in
+                  moments of transition, I’ve built a career around problem-solving, adaptability, and understanding people.</br>
+                  Throughout my career, I’ve helped leaders and teams navigate waves of technological transformation.
+                  From driving the adoption of video podcasting at the Syfy Channel during the rise of social media,
+                  to guiding the transition from physical media to a fully digital, tapeless post-production workflow,
+                  I’ve been at the forefront of change. I’ve worked with businesses to embrace innovations like streaming
+                  services, virtual reality, and artificial intelligence, ensuring they stay ahead of the curve and resilient
+                  in shifting markets. I’m also proud to call myself an “inventor,” with a patent pending for an autonomous
+                  camera control system I developed with colleagues at NEP. </p>
+
+
+								</div>
+								<div class="col-6 col-12-medium">
+									<p>Problem-solving is at the heart of everything I do. I take complex, messy ideas, systems, technologies,
+                  or situations and find ways to simplify and clarify. By breaking challenges down into manageable parts, I
+                  uncover the best approaches to move forward effectively and with purpose.</br>
+                  Throughout these experiences, I’ve gained a deep understanding of how people navigate change and
+                  uncertainty—the fears, motivations, and strengths that come into play during times of transition. </br>
+                  This insight enables me to build trust quickly, foster collaboration, and guide individuals and teams toward meaningful outcomes. </br>
+                  Today, as a coach and mentor, I help clients embrace change and unlock their potential. I’m passionate
+                  about empowering others to see opportunities in uncertainty, navigate transitions with confidence, and align
+                  their goals with their values. Whether it’s navigating external changes or creating internal transformation,
+                  I’m here to guide you through the process and help you achieve lasting growth.</p>
+								</div>
+							</div>
+						</div>
+						</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
