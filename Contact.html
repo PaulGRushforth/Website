@@ -54,23 +54,20 @@
 						<section>
 						    <form class="cta" id="contactForm">
 						
-						        <label for="name">Name</label>
-						        <input type="text" id="name" name="name" placeholder="Your Name" required>
-						
-						        <label for="email">Email Address</label>
-						        <input type="email" id="email" name="email" placeholder="your@email.com" required>
-						
-						        <label for="message">Message</label>
-						        <textarea id="message" name="message" placeholder="How can I help?" rows="4" required></textarea>
-						
-						        <fieldset>
-						            <legend>Preferred Contact Method</legend>
-						            <input type="checkbox" id="contact-email" name="contact_preference" value="email">
-						            <label for="contact-email">Email</label>
-						
-						            <input type="checkbox" id="contact-phone" name="contact_preference" value="phone">
-						            <label for="contact-phone">Phone (include phone number)</label>
-						        </fieldset>
+							  <label for="name">Name:</label>
+							  <input type="text" id="name" name="name" required>
+							
+							  <label for="email">Email:</label>
+							  <input type="email" id="email" name="email" required>
+							
+							  <label for="message">Message:</label>
+							  <textarea id="message" name="message" required></textarea>
+							
+							  <label>Preferred Contact Method:</label>
+							  <input type="radio" id="emailContact" name="contact" value="email" checked>
+							  <label for="emailContact">Email</label>
+							  <input type="radio" id="phoneContact" name="contact" value="phone">
+							  <label for="phoneContact">Phone</label>
 						
 						        <button type="submit" class = "button primary">Submit</button>
 						    </form>
