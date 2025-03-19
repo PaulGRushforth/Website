@@ -72,7 +72,7 @@
 						            <label for="contact-phone">Phone</label>
 						        </fieldset>
 						
-						        <button type="submit">Submit</button>
+						        <button type="submit" class = "button primary">Submit</button>
 						    </form>
 						</section>
 
@@ -101,6 +101,37 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+$(document).ready(function(){
+    $("#enquiryForm").submit(function(event){
+        event.preventDefault(); // Prevent default form submission
+
+        let formData = {
+            name: $("#name").val(),
+            email: $("#email").val(),
+            message: $("#message").val(),
+            contact: $("input[name='contact_preference']:checked").map(function(){
+                return this.value;
+            }).get().join(", ")
+        };
+
+        $.ajax({
+            url: "YOUR_GOOGLE_SCRIPT_URL_HERE",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(formData),
+            success: function(response) {
+                $("#responseMessage").text("Thank you! Your message has been sent.");
+                $("#enquiryForm")[0].reset();
+            },
+            error: function() {
+                $("#responseMessage").text("Oops! Something went wrong. Please try again.");
+            }
+        });
+    });
+});
+</script>
+
 
 	</body>
 </html>
