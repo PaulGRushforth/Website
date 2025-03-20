@@ -52,25 +52,9 @@
 
 						<!-- Content -->
 						<section>
-						    <form class="cta" id="contactForm">
-						
-							  <label for="name">Name:</label>
-							  <input type="text" id="name" name="name" required>
-							
-							  <label for="email">Email:</label>
-							  <input type="email" id="email" name="email" required>
-							
-							  <label for="message">Message:</label>
-							  <textarea id="message" name="message" required></textarea>
-							
-							  <label>Preferred Contact Method:</label>
-							  <input type="radio" id="emailContact" name="contact" value="email" checked>
-							  <label for="emailContact">Email</label>
-							  <input type="radio" id="phoneContact" name="contact" value="phone">
-							  <label for="phoneContact">Phone</label>
-						
-						        <button type="submit" class = "button primary">Submit</button>
-						    </form>
+
+							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4IslDUCJStdJnuACkYuWXhZfEi2Yw0jJqDl2xzh8T8ZiWIg/viewform?embedded=true" width="640" height="1013" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 						</section>
 
 					</div>
@@ -98,65 +82,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const form = document.getElementById("contactForm");
-
-  if (!form) {
-    console.error("Form not found! Check if the ID matches.");
-    return;
-  }
-
-  form.addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    let name = document.getElementById("name");
-    let email = document.getElementById("email");
-    let message = document.getElementById("message");
-    let contact = document.querySelector('input[name="contact"]:checked');
-
-    // Debugging logs
-    if (!name) console.error("Element 'name' not found.");
-    if (!email) console.error("Element 'email' not found.");
-    if (!message) console.error("Element 'message' not found.");
-    if (!contact) console.error("No contact method selected.");
-
-    // Ensure all fields exist before proceeding
-    if (!name || !email || !message || !contact) {
-      alert("Some fields are missing. Please check the form.");
-      return;
-    }
-
-    let formData = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-      contact: contact.value
-    };
-
-    fetch("https://script.google.com/macros/s/AKfycbyXk222eaTzDpHzFHtPPbfmj19uVmtQxaKw6aPmPzPrkRaZKuJDK_0shTs-w1rGmPtU7A/exec", {
-      method: "POST",
-      mode: "cors",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(formData)
-    })
-    .then(response => response.json())
-    .then(data => {
-      console.log("Success:", data);
-      alert("Your message has been sent!");
-    })
-    .catch(error => {
-      console.error("Error:", error);
-      alert("There was an issue submitting your form.");
-    });
-  });
-});
-
-
-</script>
-
+			
 
 	</body>
 </html>
