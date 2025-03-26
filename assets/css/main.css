@@ -2501,6 +2501,7 @@ input, select, textarea {
 					text-transform: none !important;
 					font-family: 'Font Awesome 5 Free';
 					font-weight: 400;
+					vertical-align: middle 
 				}
 
 				.icon.major.alt:before {
