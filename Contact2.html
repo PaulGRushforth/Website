@@ -173,8 +173,8 @@
         });
 
         if (response.ok) {
-          messageDiv.innerHTML = "<p>Thank you for your message. We'll be in touch soon!</p>";
-          form.reset();
+	window.location.href = "https://breatheandsmile.co.uk/Thanks.html";
+
         } else {
           const data = await response.json();
           messageDiv.innerHTML = `<p>Oops! ${data.error || "Something went wrong."}</p>`;
