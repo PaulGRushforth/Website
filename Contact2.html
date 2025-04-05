@@ -22,6 +22,43 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 1rem;
+      background-color: var(--background, #f9f9f9);
+    }
+
+    form {
+      width: 100%;
+      max-width: 400px;
+      background-color: var(--background, #fff);
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    button {
+      width: 100%;
+    }
+  </style>
 	</head>
 
 	<body class="is-preload">
@@ -60,9 +97,17 @@
 							<h2>Coming Soon</h2>
 							<p></p>
 						</header>
- <form id="contactForm"
-	action="hhttps://formspree.io/f/mkgjqlnw"
-  	method="POST">
+
+
+						<!-- Content -->
+						<section id="content">
+
+
+  <form
+    id="contactForm"
+    action="https://formspree.io/f/your-form-id"
+    method="POST"
+  >
     <div class="form-group">
       <label for="name">Your name</label>
       <input type="text" id="name" name="name" required />
@@ -92,13 +137,14 @@
       <input type="text" id="phone" name="phone" />
     </div>
 
+    <!-- Hidden fields for filtering and redirecting -->
+    <input type="hidden" name="form_type" value="coaching_contact_form" />
+    <input type="hidden" name="_redirect" value="https://yourdomain.com/thank-you" />
+
     <button type="submit">Send</button>
   </form>
 
 
-						<!-- Content -->
-						<section id="content">
-              <h2>This page is currently under construction</h2>
 						</section>
 					</div>
 				</div>
@@ -125,18 +171,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-      <script>
+  <script>
     const contactMethod = document.getElementById('contactMethod');
     const phoneGroup = document.getElementById('phoneGroup');
-    const emailGroup = document.getElementById('emailGroup');
+    const phoneInput = document.getElementById('phone');
 
     contactMethod.addEventListener('change', function () {
       if (this.value === 'phone') {
         phoneGroup.classList.remove('hidden');
-        emailGroup.querySelector('input').required = true;
+        phoneInput.setAttribute('required', 'required');
       } else {
         phoneGroup.classList.add('hidden');
-        emailGroup.querySelector('input').required = true;
+        phoneInput.removeAttribute('required');
       }
     });
   </script>
