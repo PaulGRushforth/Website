@@ -1,0 +1,143 @@
+
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-86TF29PQJF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-86TF29PQJF');
+</script>
+		<title>Contact</title>
+		<link rel="icon" type="image/x-icon" href="images/Favicon_Original.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Home</a></h1>
+					<nav id="nav">
+						<ul>							
+							<li>
+								<a href="#">Navigation</a>
+								<ul>
+									<li><a href="AboutMe.html">About Me</a></li>
+									<li>
+										<a href="#">Services</a>
+										<ul>
+											<li><a href="OneToOneCoaching.html">One to One Coaching</a></li>
+											<li><a href="TeamCoaching.html">Team Coaching</a></li>
+											<li><a href="WorkshopFacilitation.html">Workshop Facilitation</a></li>
+											<li><a href="#">Business Consulting</a></li>
+										</ul>
+									</li>
+									<li><a href="Testimonials.html">Testimonials</a></li>
+								</ul>
+							</li>
+							<li><a href="Contact.html" class="button primary">Get in Touch</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Coming Soon</h2>
+							<p></p>
+						</header>
+ <form id="contactForm">
+    <div class="form-group">
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Your message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="contactMethod">Preferred contact method</label>
+      <select id="contactMethod" name="contactMethod" required>
+        <option value="">-- Please choose an option --</option>
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+      </select>
+    </div>
+
+    <div class="form-group" id="emailGroup">
+      <label for="email">Your email address</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+
+    <div class="form-group hidden" id="phoneGroup">
+      <label for="phone">Your phone number</label>
+      <input type="text" id="phone" name="phone" />
+    </div>
+
+    <button type="submit">Send</button>
+  </form>
+
+
+						<!-- Content -->
+						<section id="content">
+              <h2>This page is currently under construction</h2>
+						</section>
+					</div>
+				</div>
+		</div>
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:mail@breatheandsmile.co.uk" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Breathe & Smile. All rights reserved 2025.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+      <script>
+    const contactMethod = document.getElementById('contactMethod');
+    const phoneGroup = document.getElementById('phoneGroup');
+    const emailGroup = document.getElementById('emailGroup');
+
+    contactMethod.addEventListener('change', function () {
+      if (this.value === 'phone') {
+        phoneGroup.classList.remove('hidden');
+        emailGroup.querySelector('input').required = true;
+      } else {
+        phoneGroup.classList.add('hidden');
+        emailGroup.querySelector('input').required = true;
+      }
+    });
+  </script>
+
+	</body>
+</html>
