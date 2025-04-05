@@ -1,0 +1,156 @@
+
+
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    <link rel="stylesheet" href="main.css" />
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-86TF29PQJF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-86TF29PQJF');
+</script>
+		<title>About Me</title>
+		<link rel="icon" type="image/x-icon" href="images/Favicon_Original.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Breathe & Smile</a></h1>
+					<nav id="nav">
+						<ul>							
+							<li>
+								<a href="#">Navigation</a>
+								<ul>
+									<li><a href="AboutMe.html">About Me</a></li>
+									<li>
+										<a href="#">Services</a>
+										<ul>
+											<li><a href="OneToOneCoaching.html">One to One Coaching</a></li>
+											<li><a href="TeamCoaching.html">Team Coaching</a></li>
+											<li><a href="FocusSessions.html">Focus Sessions</a></li>
+											<li><a href="WorkshopFacilitation.html">Workshop Facilitation</a></li>
+											<li><a href="ComingSoon.html">Business Consulting</a></li>
+										</ul>
+									</li>
+									<li><a href="Testimonials.html">Testimonials</a></li>
+								</ul>
+							</li>
+							<li><a href="Contact.html" class="button primary">Get in Touch</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Get In Touch</h2>
+							<p></p>
+						</header>
+
+						<!-- Content -->
+							<section id="content">
+                  <form
+    id="contactForm"
+    action="https://formspree.io/f/your-form-id"
+    method="POST"
+  >
+    <div class="form-group">
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Your message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="contactMethod">Preferred contact method</label>
+      <select id="contactMethod" name="contactMethod" required>
+        <option value="">-- Please choose an option --</option>
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+      </select>
+    </div>
+
+    <div class="form-group" id="emailGroup">
+      <label for="email">Your email address</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+
+    <div class="form-group hidden" id="phoneGroup">
+      <label for="phone">Your phone number</label>
+      <input type="text" id="phone" name="phone" />
+    </div>
+
+    <!-- Hidden fields for filtering and redirecting -->
+    <input type="hidden" name="form_type" value="coaching_contact_form" />
+    <input type="hidden" name="_redirect" value="https://yourdomain.com/thank-you" />
+
+    <button type="submit">Send</button>
+  </form>
+
+							</section>
+
+					</div>
+				</div>
+		</div>
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:mail@breatheandsmile.co.uk" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Breathe & Smile. All rights reserved 2025.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+      <script>
+    const contactMethod = document.getElementById('contactMethod');
+    const phoneGroup = document.getElementById('phoneGroup');
+    const phoneInput = document.getElementById('phone');
+
+    contactMethod.addEventListener('change', function () {
+      if (this.value === 'phone') {
+        phoneGroup.classList.remove('hidden');
+        phoneInput.setAttribute('required', 'required');
+      } else {
+        phoneGroup.classList.add('hidden');
+        phoneInput.removeAttribute('required');
+      }
+    });
+  </script>
+
+			
+
+	</body>
+</html>
