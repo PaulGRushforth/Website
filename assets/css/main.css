@@ -2201,7 +2201,7 @@ input, select, textarea {
 /* Form */
 
 	form {
-	  max-width: 400px;
+	  max-width: 600px;
  	 margin: 0 auto; /* centers it horizontally */
 	}
 
