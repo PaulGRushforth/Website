@@ -2211,7 +2211,7 @@ input, select, textarea {
 			margin-right: auto;
 		}
 		.form-group {
-		  margin-bottom: 1.5em;
+		  padding-bottom: 1.5em;;
 		}
 
 
@@ -2220,7 +2220,7 @@ input, select, textarea {
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.25em 0;
 	}
 
 	input[type="text"],
