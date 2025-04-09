@@ -2854,7 +2854,7 @@ input, select, textarea {
   padding: 2rem;
   max-width: 100%;
   text-align: center;
-  background-color: #ffffff33; /* White with ~20% opacity */
+  background-color: #ffffff22; /* White with ~20% opacity */
   backdrop-filter: blur(5px); /* Optional: softens background */
   box-shadow: none;
 }
