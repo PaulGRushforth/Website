@@ -2198,6 +2198,75 @@ input, select, textarea {
 		margin: 4em 0 0 0;
 	}
 
+
+/* Container for all testimonials */
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+/* Responsive layout for tablets and phones */
+@media (max-width: 1024px) {
+  .testimonial-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .testimonial-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Individual testimonial card styling */
+.testimonial-card {
+  border: 2px solid #AFEDF7;        /* Light blue border */
+  border-radius: 1rem;              /* Rounded corners */
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff22;      /* Translucent white background */
+  backdrop-filter: blur(5px);       /* Optional frosted-glass effect */
+  box-shadow: none;                 /* Remove default shadows */
+}
+
+/* Circular image */
+.testimonial-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  display: block;
+  border: 3px solid #AFEDF7;
+}
+
+/* Name styling */
+.testimonial-name {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+/* Job title styling */
+.testimonial-title {
+  margin: 0.25rem 0 1rem;
+  font-size: 0.95rem;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+/* Quote styling */
+.testimonial-quote {
+  font-style: italic;
+  color: #AFEDF7;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 /* Form */
 
 	form {
