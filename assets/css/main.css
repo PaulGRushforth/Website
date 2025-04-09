@@ -4122,6 +4122,16 @@ input, select, textarea {
 
 	}
 
+.site-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #AFEDF7;
+  display: block;
+  margin: 0 auto;
+}
+
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
