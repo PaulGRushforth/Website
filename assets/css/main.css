@@ -2870,6 +2870,7 @@ input, select, textarea {
 .testimonial-quote {
   font-style: italic;
   color: #333;
+  text-align: center;
   line-height: 1.5;
 }
 
