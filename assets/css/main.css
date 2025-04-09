@@ -2571,7 +2571,11 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-
+.logo-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* List */
 
 	ol {
