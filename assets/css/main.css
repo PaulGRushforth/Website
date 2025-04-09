@@ -2575,6 +2575,8 @@ input, select, textarea {
   display: block;
   max-width: 100%;
   height: auto;
+  border-radius: 50%; /* This makes it a perfect circle */
+  object-fit: cover;  /* Ensures it doesn't get squashed */
 }
 /* List */
 
