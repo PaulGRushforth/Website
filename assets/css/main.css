@@ -2870,14 +2870,14 @@ input, select, textarea {
 .testimonial-name {
   margin: 0.5rem 0 0;
   font-size: 1.2rem;
-  color: #AFEDF7
+  color: #FFFFFF;
   font-weight: 600;
 }
 
 .testimonial-title {
   margin: 0.25rem 0 1rem;
   font-size: 0.95rem;
-  color: #666;
+  color: #FFFFFF;
 }
 
 .testimonial-quote {
