@@ -2836,13 +2836,14 @@ input, select, textarea {
   padding: 2rem 1rem;
 }
 .testimonial-card {
-  border: 2px solid var(--light-blue); /* Assuming --light-blue is defined in main.css */
+  border: 2px solid #AFEDF7; /* Light blue border */
   border-radius: 1rem;
   padding: 2rem;
   max-width: 350px;
   text-align: center;
-  background-color: white;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  background-color: #ffffff33; /* White with ~20% opacity */
+  backdrop-filter: blur(5px); /* Optional: softens background */
+  box-shadow: none;
 }
 
 .testimonial-photo {
