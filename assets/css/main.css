@@ -2826,6 +2826,51 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+
+/* Testimonials*/
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+.testimonial-card {
+  border: 2px solid var(--light-blue); /* Assuming --light-blue is defined in main.css */
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 350px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.testimonial-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonial-name {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.testimonial-title {
+  margin: 0.25rem 0 1rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.testimonial-quote {
+  font-style: italic;
+  color: #333;
+  line-height: 1.5;
+}
+
 /* Button */
 
 	input[type="submit"],
