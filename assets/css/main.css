@@ -2572,8 +2572,8 @@ input, select, textarea {
 				width: 100%;
 			}
 .logo-wrapper img {
-  width: 100px;         /* Adjust this to make the circle smaller or larger */
-  height: 100px;
+  width: 200px;         /* Adjust this to make the circle smaller or larger */
+  height: 200px;
   border-radius: 50%;   /* Keeps it circular */
   object-fit: cover;    /* Ensures it fills the circle without stretching */
   display: block;
