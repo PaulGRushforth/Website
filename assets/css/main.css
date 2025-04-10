@@ -2577,6 +2577,14 @@ input, select, textarea {
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
 
+				.icon.inline-heading {
+					  font-size: 2em; /* About 30% smaller than .icon.major */
+					  margin-right: 0.4em;
+					  vertical-align: middle;
+					  color: #AFEDF7;
+					}
+
+
 /* Image */
 
 	.image {
