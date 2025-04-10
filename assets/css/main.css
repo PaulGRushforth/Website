@@ -2728,6 +2728,13 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+.icon.centered {
+  display: block;
+  margin: 0 auto 1rem auto;
+  float: none;
+}
+
+
 /* Icons */
 
 	ul.icons {
