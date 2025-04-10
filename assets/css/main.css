@@ -2208,33 +2208,37 @@ input, select, textarea {
 }
 
 .feature-card {
-  background: #f9f9f9;
+  background: rgba(255, 255, 255, 0.22); /* transparent white */
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  color: #AFEDF7;
 }
 
 .feature-card .icon {
-  font-size: 2.5rem;
-  color: #44a1c1;
+  font-size: 2rem; /* Shrunk icon to match "minor" style */
+  color: #AFEDF7;
   margin-bottom: 1rem;
 }
 
 .feature-card h4 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  color: #AFEDF7;
 }
 
 .feature-card ul {
   list-style: none;
   padding-left: 0;
   text-align: left;
+  color: #AFEDF7;
 }
 
 .feature-card ul li {
   margin-bottom: 0.5rem;
 }
+
 
 /* Container for all testimonials */
 .testimonial-container {
