@@ -2205,9 +2205,15 @@ input, select, textarea {
   max-width: 1000pix;
   margin-left: auto;
   margin-right: auto;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(2, 1fr); /* Exactly 2 columns */
   gap: 2rem;
   margin-top: 2rem;
+	
+}
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 
