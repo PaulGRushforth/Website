@@ -2234,6 +2234,19 @@ input, select, textarea {
 .feature-card ul li {
   color: #AFEDF7 !important;
 }
+.feature-card .icon.major.alt {
+  width: 4em;
+  height: 4em;
+  line-height: 3.7em;
+  font-size: 1.5em;
+  background: #284389;  /* Blue circle */
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  display: block;
+  color: #AFEDF7;
+  text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+}
+
 
 
 
