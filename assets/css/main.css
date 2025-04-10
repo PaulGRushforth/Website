@@ -2199,6 +2199,43 @@ input, select, textarea {
 	}
 
 
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card .icon {
+  font-size: 2.5rem;
+  color: #44a1c1;
+  margin-bottom: 1rem;
+}
+
+.feature-card h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.feature-card ul li {
+  margin-bottom: 0.5rem;
+}
+
 /* Container for all testimonials */
 .testimonial-container {
   display: grid;
