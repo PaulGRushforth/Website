@@ -2584,6 +2584,16 @@ input, select, textarea {
 					  color: #AFEDF7;
 					}
 
+				.icon.minor {
+				  width: 4em;
+				  height: 4em;
+				  line-height: 3.8em;
+				  font-size: 1.5em;
+				  margin-right: 1em;
+				  float: left;
+				}
+
+
 
 /* Image */
 
