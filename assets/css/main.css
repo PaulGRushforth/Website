@@ -2147,6 +2147,39 @@ input, select, textarea {
 
 		}
 
+/* Blogpost Preview */
+.blog-post-preview {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.blog-post-preview h2 {
+  margin-bottom: 0.25rem;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.excerpt {
+  margin-bottom: 0.5rem;
+}
+
+.tags {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.85em;
+  color: #888;
+}
+
+.tags li {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
 /* Section/Article */
 
 	section.special, article.special {
