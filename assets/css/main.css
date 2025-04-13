@@ -2180,6 +2180,26 @@ input, select, textarea {
   margin-right: 0.5rem;
 }
 
+.sidebar-blog-list ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.9em;
+}
+
+.sidebar-blog-list li {
+  margin-bottom: 1rem;
+}
+
+.sidebar-blog-list a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sidebar-blog-list time {
+  color: #888;
+  font-size: 0.8em;
+}
+
 /* Section/Article */
 
 	section.special, article.special {
