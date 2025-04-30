@@ -1,0 +1,207 @@
+
+
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-86TF29PQJF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-86TF29PQJF');
+</script>
+		<title>When Promoting Technical Experts Fails — and How We Can Do Better| Paul Rushforth | Breathe & Smile</title>
+  <meta name="description" content="Learn how to use Maslow’s Hierarchy of Needs to support employee development and help your team reach their full potential. A simple model for L&D success.">
+  <meta name="title" content="When Promoting Technical Experts Fails — and How We Can Do Better">
+		<link rel="icon" type="image/x-icon" href="../images/Favicon_Original.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="../stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="../index.html">Breathe & Smile</a></h1>
+					<nav id="nav">
+						<ul>							
+							<li>
+								<a href="#">Navigation</a>
+								<ul>
+									<li><a href="../AboutMe.html">About Me</a></li>
+									<li>
+										<a href="#">Services</a>
+										<ul>
+											<li><a href="../OneToOneCoaching.html">One to One Coaching</a></li>
+											<li><a href="../TeamCoaching.html">Team Coaching</a></li>
+											<li><a href="../FocusSessions.html">Focus Sessions</a></li>
+											<li><a href="../WorkshopFacilitation.html">Workshop Facilitation</a></li>
+											<li><a href="../ComingSoon.html">Business Consulting</a></li>
+										</ul>
+									</li>
+									<li><a href="../Testimonials.html">Testimonials</a></li>
+									<li><a href="blog/">Blog</a></li>
+								</ul>
+							</li>
+							<li><a href="../Contact.html" class="button primary">Get in Touch</a></li>
+						</ul>
+					</nav>
+				</header>
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<div class="row">
+  						<div class="col-8 col-12-medium">
+<article>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="title" content="When Promoting Technical Experts Fails — and How We Can Do Better">
+  <meta name="description" content="Many companies promote technical experts into leadership roles without giving them the support they need. The result? Burnout, underperformance, and team breakdown. This post explores why it happens — and what we can do instead.">
+  <title>When Promoting Technical Experts Fails — and How We Can Do Better</title>
+</head>
+<body>
+
+<h1>When Promoting Technical Experts Fails — and How We Can Do Better</h1>
+
+<p>I spent my career working at the exciting intersection where technology, creativity and business meet. Each of these disciplines is essential to the success of a media company — and,
+increasingly, to any company. Their leaders play crucial roles in delivering that success. However, all too often I saw people who were incredibly talented in their discipline have their
+value promoted out of them.</p>
+
+<p>This is the first of three posts that explore some of the challenges facing organisations and leaders when it comes to promoting technical experts into leadership.</p>
+
+<h3>The Hidden Cost of Promoting Technical Experts</h3>
+
+<p>It’s a familiar story; an incredibly capable technical expert is rewarded for their technical mastery by a promotion to a leadership role. Instead of helping them grow, the promotion
+often has the opposite effect — harming not just the expert, but their team and the wider organisation.</p>
+
+<p>Being a technology leader requires more than just a deep understanding of a given technology. It requires a range of soft skills and capabilities often lacking in highly successful
+technical people. The demands of leadership bring another risk: that the person now underdelivers on both fronts — as a leader and as an expert.</p>
+
+<p>There are many reasons these promotions happen. Often it starts with a good intention: to recognise and reward a technical expert. But there is often a hope that their brilliance will
+somehow transfer to the rest of the team once they are promoted. The challenge is that little thought is given to the non-technical skills that a leader needs in order to be successful:
+influencing, strategic thinking, communication, managing uncertainty, to name but a few.</p>
+
+<h3>The Impact on the Expert — Burnout, Identity Shift, and Skill Gaps</h3>
+
+<p>I have seen newly promoted technical leaders quickly reach a stage of burnout as they are given new non-technical responsibilities, but continue to invest the same amount of time
+working in their technical field. They struggle as they now have to rely on skills that they have not yet developed to be successful. At the same time, they are battling with an internal
+identity crisis as they transform from “expert” to “leader” (more on this in Part 2).</p>
+
+<p>It’s not only the newly promoted leader who can suffer: the team below them has now potentially lost at least a portion of their most valuable asset, and is also having to try and operate
+under an ineffective leader.</p>
+
+<p>It doesn’t take long for the cracks to begin to show, and the new leader who was not set up for success is faced with people challenges that lead to technical challenges, creating a vicious cycle.</p>
+
+<h3>Why Technical Excellence Doesn’t Equal Leadership Readiness</h3>
+
+<p>It’s not just CTOs. Every time a technical expert is promoted, the percentage of their role that relies on their technical skills and capabilities decreases. Throughout my career, I
+have seen HR teams wrestle with the same challenge: underdeveloped line manager capability. And more often than not, the root cause is the same — a brilliant individual contributor, 
+suddenly expected to lead people.</p>
+
+<p>What’s often overlooked is that technical excellence and people leadership require fundamentally different skill sets. Time and again, I meet people who can’t understand why managing technical
+talent can be so difficult — especially when newly promoted leaders are still finding their footing. But when you look closely, it’s not a mystery — it’s a mismatch.</p>
+
+<h3>There Is a Better Way Forward</h3>
+
+<p>Part of the challenge is that these situations are often caused through the desire to recognise, reward and retain technical experts, and the belief that promotion is the only tool that can
+be used to do this. There are other ways to recognise and reward technical talent without forcing them into leadership roles they’re not ready for — something anyone managing technical talent should
+think about (I’ll explore these options in Part 3).</p>
+
+<p>When we talk about 'technical experts', we often picture developers or engineers. But the reality is far broader. Data scientists, broadcast engineers, UX designers, even technical product managers
+— these roles all involve deep craft and complex systems knowledge. And they’re just as vulnerable to being promoted out of their value zone.</p>
+
+<p>When we promote people purely for their technical brilliance, we risk setting them up to fail — and losing the very value we hoped to amplify. It’s a well-intentioned mistake, but one that plays
+out across teams and companies far too often. If we want to build organisations that are technically excellent and sustainably led, we need to rethink how we define, support, and reward leadership.</p>
+
+<h3>What to Expect in Part 2</h3>
+
+<p>In the second post in this series, I’ll explore some of the hidden challenges of career transition for technical experts. From identity crisis to culture clash, we’ll look at why this transition
+can be so difficult, and why it’s not a question of talent or capability, but one of support and design.</p>
+
+</body>
+</html>
+
+
+					<div>
+						<footer class="major">
+							<ul class="actions special">
+								<li><a href="Contact.html" class="button">Ready For A Conversation?</a></li>
+							</ul>
+						</footer>
+						</section>
+					</div>
+
+</article>
+						</div>
+								<!-- Sidebar -->
+						  <div class="col-4 col-12-medium">
+									<section id="sidebar">
+										<section>
+											<aside class="sidebar-blog-list">
+											  <h3>Recent Blog Posts</h3>
+											  <ul>
+											    <li>
+											      <a href="/blog/leading-the-whole-person-with-Maslow.html">Leading with Maslow</a><br>
+											      <small><time datetime="2025-04-25">25 Apr 2025</time></small>
+											    </li>
+											    <li>
+											      <a href="/blog/coaching-vs-change-management.html">Why I Don’t Do Change Management</a><br>
+											      <small><time datetime="2025-04-13">13 Apr 2025</time></small>
+											    </li>
+											    <li>
+											      <a href="/blog/puzzle-method-vs-pressure.html">The Puzzle Method vs Pressure</a><br>
+											      <small><time datetime="2025-05-05">5 May 2025</time></small>
+											    </li>
+											  </ul>
+											</aside>
+
+										</section>
+										<hr />
+						  </div>
+						  </div>
+					</div>
+				</div>
+										<hr />
+										<section>
+											
+										</section>
+									</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:mail@breatheandsmile.co.uk" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Breathe & Smile. All rights reserved 2025.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
