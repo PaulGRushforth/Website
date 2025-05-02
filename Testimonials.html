@@ -31,26 +31,30 @@
   }
 </style>
 	
-	<script>
+<script>
   document.addEventListener('DOMContentLoaded', function () {
     const toggles = document.querySelectorAll('.read-more-toggle');
+
     toggles.forEach(function (toggle) {
       toggle.addEventListener('click', function () {
         const snippet = this.parentElement.querySelector('.testimonial-snippet');
         const full = this.parentElement.querySelector('.testimonial-full');
-        if (full.style.display === 'none') {
-          full.style.display = 'inline';
+
+        if (full.style.display === 'none' || full.style.display === '') {
+          full.style.display = 'block';
           snippet.style.display = 'none';
           this.textContent = 'Show less';
         } else {
           full.style.display = 'none';
-          snippet.style.display = 'inline';
+          snippet.style.display = 'block';
           this.textContent = 'Read more';
         }
       });
     });
   });
 </script>
+
+
 </head>
 	<body class="is-preload">
 		<div id="page-wrapper">
