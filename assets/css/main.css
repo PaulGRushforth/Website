@@ -2264,16 +2264,16 @@ input, select, textarea {
 
 .testimonial-carousel-wrapper {
   position: relative;
-  overflow: hidden;
   margin: 2rem 0;
+  overflow: hidden;
 }
 
 .testimonial-carousel {
   display: flex;
-  gap: 2rem;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  gap: 2rem;
   padding: 1rem 0;
 }
 
@@ -2282,38 +2282,46 @@ input, select, textarea {
 }
 
 .longform-testimonial {
-  flex: 0 0 calc(100% / 2.3);
+  flex: 0 0 calc(100% / 2.3); /* 2.5 on screen */
   scroll-snap-align: start;
-}
-
-.longform-testimonial blockquote {
-  padding: 0;
-  margin: 0;
 }
 
 .arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   border: 1px solid #ccc;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  z-index: 10;
-  font-size: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .arrow.left {
-  left: -18px;
+  left: 10px;
 }
 
 .arrow.right {
-  right: -18px;
+  right: 10px;
+}
+
+.read-more-toggle {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #0066cc;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 0.5rem;
 }
 
 /* Section/Article */
