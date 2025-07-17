@@ -2284,6 +2284,7 @@ input, select, textarea {
 .longform-testimonial {
   flex: 0 0 calc(100% / 2.3); /* 2.5 on screen */
   scroll-snap-align: start;
+	
 }
 
 .arrow {
@@ -2326,6 +2327,7 @@ input, select, textarea {
 @media (max-width: 768px) {
   .longform-testimonial {
     flex: 0 0 100%; /* Show 1 testimonial at a time on mobile */
+	padding: 1 rem;
   }
 
   .testimonial-carousel {
