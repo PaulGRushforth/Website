@@ -2261,46 +2261,60 @@ input, select, textarea {
   font-size: 0.8em;
 }
 
+
 .testimonial-carousel-wrapper {
   position: relative;
   overflow: hidden;
   margin: 2rem 0;
 }
+
 .testimonial-carousel {
   display: flex;
+  gap: 2rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  gap: 2rem;
-  padding: 1rem 0;
   scroll-behavior: smooth;
+  padding: 1rem 0;
 }
+
+.testimonial-carousel::-webkit-scrollbar {
+  display: none;
+}
+
 .longform-testimonial {
-  flex: 0 0 calc(100% / 2.3); /* Show 2.5 at a time */
+  flex: 0 0 calc(100% / 2.3);
   scroll-snap-align: start;
 }
+
+.longform-testimonial blockquote {
+  padding: 0;
+  margin: 0;
+}
+
 .arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   background: white;
+  border: 1px solid #ccc;
   border-radius: 50%;
   width: 36px;
   height: 36px;
-  border: 1px solid #ccc;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 1;
+  z-index: 10;
   font-size: 1.5rem;
 }
+
 .arrow.left {
   left: -18px;
 }
+
 .arrow.right {
   right: -18px;
 }
-
 
 /* Section/Article */
 
