@@ -23,40 +23,10 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		
 <style>
-  .read-more-toggle {
-    display: inline-block;
-    color: #AFEDF7;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 5px;
-  }
 .testimonial-full {
   transition: all 0.3s ease;
 }
 </style>
-	
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const toggles = document.querySelectorAll('.read-more-toggle');
-
-    toggles.forEach(function (toggle) {
-      toggle.addEventListener('click', function () {
-        const snippet = this.parentElement.querySelector('.testimonial-snippet');
-        const full = this.parentElement.querySelector('.testimonial-full');
-
-        if (full.style.display === 'none' || full.style.display === '') {
-          full.style.display = 'block';
-          this.textContent = 'Show less';
-        } else {
-          full.style.display = 'none';
-          this.textContent = 'Read more';
-        }
-      });
-    });
-  });
-</script>
-
-
 
 </head>
 	<body class="is-preload">
@@ -105,10 +75,12 @@
 						<div class="container">
 
 
- <h3 style="text-align:center">Long Form Testimonials</h3>
+<h3 style="text-align:center">Long Form Testimonials</h3>
+<h3 style="text-align:center">Long Form Testimonials</h3>
+
 <div class="testimonial-carousel-wrapper">
-  <div class="arrow left" onclick="scrollLongformCarousel('left')">&#10094;</div>
-  <div class="arrow right" onclick="scrollLongformCarousel('right')">&#10095;</div>
+  <button class="arrow left" id="arrowLeft">&#8592;</button>
+  <button class="arrow right" id="arrowRight">&#8594;</button>
 
   <div class="testimonial-carousel" id="longformCarousel">
 
@@ -116,36 +88,21 @@
       <p><strong>Wioletta, Creative Director<br>June 2025</strong></p>
       <blockquote>
         <div class="testimonial-snippet">
-          <p>“When I began working with Paul, I had been unemployed for several months after a long career in a corporate environment.
-          Despite submitting countless resumes, I kept facing rejection and felt stuck and unsure of my next steps.”</p>
+          <p>“When I began working with Paul, I had been unemployed for several months after a long career in a corporate environment. I kept facing rejection and felt stuck.”</p>
         </div>
         <div class="testimonial-full" style="display: none;">
-          <p>Paul helped me navigate that uncertainty by asking insightful questions that challenged my thinking and encouraged me to see things from new perspectives. He guided me without pressure, creating space for honest reflection and growth.</p>
-          <p>One of the most pivotal moments in our work was when he challenged me to connect with agencies — something I had been putting off. That step ultimately led to a valuable contract opportunity I might have otherwise missed.</p>
-          <p>Paul offers the right tools, professional support, and a calm, non-judgmental presence. I’d highly recommend him as a coach to anyone seeking clarity and forward momentum in their career or personal journey.”</p>
+          <p>Paul helped me navigate uncertainty, connect with agencies, and ultimately secure a contract. He provided insightful guidance and emotional clarity throughout.</p>
         </div>
         <a href="javascript:void(0);" class="read-more-toggle">Read more</a>
       </blockquote>
     </div>
 
-    <!-- Repeat the same structure for other testimonials -->
-    <div class="longform-testimonial">
-      <p><strong>Andrew, Creative Director<br>April 2025</strong></p>
-      <blockquote>
-        <div class="testimonial-snippet">
-          <p>“I started working with Paul a few months ago. His brief from me was to help me put a few career ideas into an order...”</p>
-        </div>
-        <div class="testimonial-full" style="display: none;">
-          <p>We filtered down ideas, explored practicalities and built a plan. Paul’s mentorship helped me regain my confidence and I now feel prepared for the next chapter in my career and life.</p>
-        </div>
-        <a href="javascript:void(0);" class="read-more-toggle">Read more</a>
-      </blockquote>
-    </div>
-
-    <!-- Add more longform-testimonial cards as needed -->
+    <!-- Repeat same structure for additional testimonials -->
 
   </div>
 </div>
+
+
 
 
   </div>
@@ -238,30 +195,35 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 <script>
-  function scrollLongformCarousel(direction) {
-    const carousel = document.getElementById('longformCarousel');
-    const scrollAmount = carousel.offsetWidth / 2.3;
-    carousel.scrollBy({
-      left: direction === 'left' ? -scrollAmount : scrollAmount,
-      behavior: 'smooth'
-    });
-  }
-
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.read-more-toggle').forEach(function (toggle) {
-      toggle.addEventListener('click', function () {
-        const card = this.closest('.longform-testimonial');
-        const snippet = card.querySelector('.testimonial-snippet');
-        const full = card.querySelector('.testimonial-full');
+    const carousel = document.getElementById('longformCarousel');
 
-        const isExpanded = full.style.display === 'block';
-        full.style.display = isExpanded ? 'none' : 'block';
-        snippet.style.display = isExpanded ? 'block' : 'none';
-        toggle.textContent = isExpanded ? 'Read more' : 'Show less';
+    // Arrow click handlers
+    document.getElementById('arrowLeft')?.addEventListener('click', function () {
+      carousel.scrollBy({ left: -carousel.offsetWidth / 2.3, behavior: 'smooth' });
+    });
+
+    document.getElementById('arrowRight')?.addEventListener('click', function () {
+      carousel.scrollBy({ left: carousel.offsetWidth / 2.3, behavior: 'smooth' });
+    });
+
+    // Read more toggles
+    document.querySelectorAll('.read-more-toggle').forEach(function (toggle) {
+      toggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        const block = toggle.closest('.longform-testimonial');
+        const snippet = block.querySelector('.testimonial-snippet');
+        const full = block.querySelector('.testimonial-full');
+
+        const expanded = full.style.display === 'block';
+        snippet.style.display = expanded ? 'block' : 'none';
+        full.style.display = expanded ? 'none' : 'block';
+        toggle.textContent = expanded ? 'Read more' : 'Show less';
       });
     });
   });
 </script>
+
 
 
 	</body>
