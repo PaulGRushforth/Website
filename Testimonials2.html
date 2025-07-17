@@ -240,9 +240,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-		<script>
-  function scrollCarousel(direction) {
-    const carousel = document.getElementById('testimonialCarousel');
+<script>
+  function scrollLongformCarousel(direction) {
+    const carousel = document.getElementById('longformCarousel');
     const scrollAmount = carousel.offsetWidth / 2.3;
     carousel.scrollBy({
       left: direction === 'left' ? -scrollAmount : scrollAmount,
@@ -253,18 +253,19 @@
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.read-more-toggle').forEach(function (toggle) {
       toggle.addEventListener('click', function () {
-        const blockquote = this.closest('blockquote');
-        const snippet = blockquote.querySelector('.testimonial-snippet');
-        const full = blockquote.querySelector('.testimonial-full');
-        const isOpen = full.style.display === 'block';
+        const card = this.closest('.longform-testimonial');
+        const snippet = card.querySelector('.testimonial-snippet');
+        const full = card.querySelector('.testimonial-full');
 
-        full.style.display = isOpen ? 'none' : 'block';
-        snippet.style.display = isOpen ? 'block' : 'none';
-        this.textContent = isOpen ? 'Read more' : 'Show less';
+        const isExpanded = full.style.display === 'block';
+        full.style.display = isExpanded ? 'none' : 'block';
+        snippet.style.display = isExpanded ? 'block' : 'none';
+        toggle.textContent = isExpanded ? 'Read more' : 'Show less';
       });
     });
   });
 </script>
+
 
 	</body>
 </html>
