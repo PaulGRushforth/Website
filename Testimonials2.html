@@ -330,28 +330,34 @@
 		</div>
 
 		<!-- Scripts -->
-		function scrollCarousel(direction) {
+		
+
+<script>
+  function scrollCarousel(direction) {
     const carousel = document.getElementById('testimonialCarousel');
-    const scrollAmount = 340; // adjust to match your card width + gap
+    const scrollAmount = 340;
     carousel.scrollBy({
       left: direction === 'left' ? -scrollAmount : scrollAmount,
       behavior: 'smooth'
     });
   }
 
-  document.querySelectorAll('.read-more-toggle').forEach(toggle => {
-    toggle.addEventListener('click', () => {
-      const card = toggle.closest('.testimonial-card');
-      const snippet = card.querySelector('.testimonial-snippet');
-      const full = card.querySelector('.testimonial-full');
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.read-more-toggle').forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const card = toggle.closest('.testimonial-card');
+        const snippet = card.querySelector('.testimonial-snippet');
+        const full = card.querySelector('.testimonial-full');
 
-      const isExpanded = full.style.display === 'block';
-      full.style.display = isExpanded ? 'none' : 'block';
-      snippet.style.display = isExpanded ? 'block' : 'none';
-      toggle.textContent = isExpanded ? 'Read more' : 'Read less';
+        const isExpanded = full.style.display === 'block';
+        full.style.display = isExpanded ? 'none' : 'block';
+        snippet.style.display = isExpanded ? 'block' : 'none';
+        toggle.textContent = isExpanded ? 'Read more' : 'Read less';
+      });
     });
   });
 </script>
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
