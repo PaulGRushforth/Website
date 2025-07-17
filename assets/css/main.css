@@ -2290,7 +2290,7 @@ input, select, textarea {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(175, 237, 247, 0.9);
   border: 1px solid #ccc;
   border-radius: 50%;
   width: 40px;
