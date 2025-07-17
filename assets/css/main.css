@@ -2324,11 +2324,12 @@ input, select, textarea {
   display: inline-block;
   margin-top: 0.5rem;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .longform-testimonial {
-    flex: 0 0 100%; /* Show 1 testimonial at a time on mobile */
-	padding: 1 rem;
+    flex: 0 0 100%; /* Full width on smaller screens */
   }
+}
+
 
   .testimonial-carousel {
     gap: 1rem; /* Optional: tighter spacing on mobile */
