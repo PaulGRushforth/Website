@@ -33,94 +33,6 @@
 .testimonial-full {
   transition: all 0.3s ease;
 }
-	  .testimonial-carousel-wrapper {
-    position: relative;
-    margin: 2rem 0;
-  }
-
-.testimonial-carousel {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  gap: 1.5rem;
-  padding: 1rem 0;
-  /* Optional width control (e.g. inside container) */
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-.testimonial-card {
-  flex: 0 0 clamp(280px, 45%, 400px); /* Shows ~2 at once */
-  scroll-snap-align: start;
-  background: transparent; /* match your site */
-  padding: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Optional subtle shadow */
-}
-
-
-  .testimonial-card strong {
-    display: block;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-.testimonial-card-bordered {
-  background: transparent;
-  border: 1px solid #ddd;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  max-width: 320px;
-}
-
-  .testimonial-snippet,
-  .testimonial-full {
-    font-size: 0.9rem;
-    line-height: 1.5;
-    color: #333;
-  }
-
-  .testimonial-full {
-    display: none;
-  }
-
-  .read-more-toggle {
-    font-size: 0.85rem;
-    text-decoration: underline;
-    color: #0066cc;
-    cursor: pointer;
-    margin-top: 0.5rem;
-    display: inline-block;
-  }
-
-  .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 2;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  }
-
-  .arrow.left {
-    left: -18px;
-  }
-
-  .arrow.right {
-    right: -18px;
-  }
-
-  .testimonial-carousel::-webkit-scrollbar {
-    display: none;
-  }
 </style>
 	
 <script>
@@ -184,78 +96,80 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-<h3 style="text-align:center">Client Testimonials</h3>
+							<h2>Testimonials</h2>
+							<p>What my recent clients say about our coaching together</p>
+						</header>
 
+						<!-- Content -->
+						<section id="content">
+						<div class="container">
+	<h3 style="text-align:center">Long Form Testimonials</h3>
 <div class="testimonial-carousel-wrapper">
-  <div class="arrow left" onclick="scrollCarousel('left')">&#10094;</div>
-  <div class="arrow right" onclick="scrollCarousel('right')">&#10095;</div>
+  <div class="arrow left" onclick="scrollCarousel('left')">❮</div>
+  <div class="arrow right" onclick="scrollCarousel('right')">❯</div>
 
   <div class="testimonial-carousel" id="testimonialCarousel">
 
-    <div class="testimonial-card">
+    <div class="longform-testimonial">
       <p><strong>Wioletta, Creative Director<br>June 2025</strong></p>
       <blockquote>
         <div class="testimonial-snippet">
-          <p>“When I began working with Paul, I had been unemployed for several months after a long career in a corporate environment. Despite submitting countless resumes, I kept facing rejection and felt stuck and unsure of my next steps. Should I change careers? What direction should I take? I had more questions than answers. Paul helped me navigate that uncertainty by asking insightful questions that challenged my thinking and encouraged me to see things from new perspectives. He guided me without pressure, creating space for honest reflection and growth.”</p>
+          <p>"When I began working with Paul, I had been unemployed for several months after a long career in a corporate environment...</p>
         </div>
-        <div class="testimonial-full">
-          <p>One of the most pivotal moments in our work was when he challenged me to connect with agencies — something I had been putting off. That step ultimately led to a valuable contract opportunity I might have otherwise missed.</p>
+        <div class="testimonial-full" style="display: none;">
+          <p>One of the most pivotal moments in our work was when he challenged me to connect with agencies...</p>
           <p>Paul offers the right tools, professional support, and a calm, non-judgmental presence.</p>
-          <p>I’d highly recommend him as a coach to anyone seeking clarity and forward momentum in their career or personal journey.”</p>
+          <p>I’d highly recommend him as a coach to anyone seeking clarity and forward momentum."</p>
         </div>
         <a href="javascript:void(0);" class="read-more-toggle">Read more</a>
       </blockquote>
     </div>
 
-    <div class="testimonial-card">
+    <div class="longform-testimonial">
       <p><strong>Andrew, Creative Director<br>April 2025</strong></p>
       <blockquote>
         <div class="testimonial-snippet">
-          <p>“I started working with Paul a few months ago. His brief from me was to help me put a few career ideas into an order and help me figure out what next. I wanted to be prepared and have a plan in place that I could activate whenever needed. We started exploring ideas and a number of directions. Each week Paul would ask probing questions, challenge me and help me think through my ideas, ambitions and skills. Over a few weeks we filtered down some of the ideas, explored the practicalities and thoroughly stress tested each option.”</p>
+          <p>"I started working with Paul a few months ago. His brief from me was to help me put a few career ideas into an order...</p>
         </div>
-        <div class="testimonial-full">
-          <p>It’s been a thoroughly enjoyable process and I have valued Paul’s input in helping me put all these thoughts into an order and ultimately hatch a deliverable plan. His mentorship has helped me regain my confidence and I now feel prepared for the next chapter in my career and life.</p>
-          <p>I would recommend Paul as a coach and mentor.</p>
-          <p>I had never done anything like this before but feel it has been a hugely beneficial experience for me.”</p>
+        <div class="testimonial-full" style="display: none;">
+          <p>Over a few weeks we filtered down ideas, stress tested them and built a deliverable plan...</p>
+          <p>I would recommend Paul as a coach and mentor."</p>
         </div>
         <a href="javascript:void(0);" class="read-more-toggle">Read more</a>
       </blockquote>
     </div>
 
-    <div class="testimonial-card">
+    <div class="longform-testimonial">
       <p><strong>Cameron, Technology Sales Manager<br>February 2025</strong></p>
       <blockquote>
         <div class="testimonial-snippet">
-          <p>“Paul is fantastic at fostering an open and safe environment that always made me feel like I was able to share my thoughts in confidence. Every session felt like it was structured around me and what I wanted to achieve rather than a ‘paint by numbers’ approach that I have experienced with other coaches/mentors. Working with Paul has enabled me to be calmer and more methodical in my approach to complex tasks. I feel like my ability to communicate and get buy-in from senior stakeholders within my business has vastly improved in the past 12 months, and there is no doubt in my mind that is due to my work with Paul.”</p>
+          <p>"Paul is fantastic at fostering an open and safe environment that always made me feel like I was able to share my thoughts in confidence...</p>
         </div>
-        <div class="testimonial-full">
-          <p>I would recommend Paul to anyone who is struggling with communicating complex projects or ideas to senior stakeholders, or is looking for support with exploring how to effectively manage and deliver cross-departmental projects.”</p>
+        <div class="testimonial-full" style="display: none;">
+          <p>Working with Paul helped me communicate better with senior stakeholders...</p>
         </div>
         <a href="javascript:void(0);" class="read-more-toggle">Read more</a>
       </blockquote>
     </div>
 
-<div class="testimonial-card">
-  <p><strong>Dr A Fry, GP Partner & Director of Greener Practice<br>January 2025</strong></p>
-  <blockquote>
-    <div class="testimonial-snippet">
-      <p>“Paul is an excellent coach; with his support, knowledge and reflective skills I was able to work through the pros and cons of whether to transition...”</p>
+    <div class="longform-testimonial">
+      <p><strong>Dr A Fry, GP Partner & Director of Greener Practice<br>January 2025</strong></p>
+      <blockquote>
+        <div class="testimonial-snippet">
+          <p>"Paul is an excellent coach; with his support, knowledge and reflective skills I was able to work through a major transition...</p>
+        </div>
+        <div class="testimonial-full" style="display: none;">
+          <p>He was not afraid to challenge me and provided a wealth of practical coaching techniques and insights."</p>
+        </div>
+        <a href="javascript:void(0);" class="read-more-toggle">Read more</a>
+      </blockquote>
     </div>
-    <div class="testimonial-full" style="display:none;">
-      <p>I went on to achieve this change smoothly whilst being mindful of my own boundaries. He was not afraid to appropriately challenge me and was a wealth of knowledge on various coaching techniques and useful exercises, which helped to draw out and explore my hopes and fears.”</p>
-    </div>
-    <a href="javascript:void(0);" class="read-more-toggle">Read more</a>
-  </blockquote>
-</div>
-
 
   </div>
 </div>
-	
-						</div>
 						<h3 style="text-align:center"> Excerpts from some of my recommendations on LinkedIn</h3>
 						<div class="testimonial-container">
-							  <div class="testimonial-card-bordered">
+							  <div class="testimonial-card">
 							    <img src="images/Growe.jpeg" alt="Name" class="testimonial-photo">
 							    <h3 class="testimonial-name">Graham Rowe</h3>
 							    <p class="testimonial-title">Senior Systems Architect</p>
@@ -264,7 +178,7 @@
 							    </p>
 							  </div>
 							
-							  <div class="testimonial-card-bordered">
+							  <div class="testimonial-card">
 							    <img src="images/vdavis.jpeg" alt="Name" class="testimonial-photo">
 							    <h3 class="testimonial-name">Vicki Davis</h3>
 							    <p class="testimonial-title">Strategic Senior Marketer</p>
@@ -282,7 +196,7 @@
 							    </p>
 							  </div>
 
-							    <div class="testimonial-card-bordered">
+							    <div class="testimonial-card">
 							    <img src="images/jlinley.jpeg" alt="Name" class="testimonial-photo">
 							    <h3 class="testimonial-name">Julian Linley</h3>
 							    <p class="testimonial-title">Media Consultant</p>
@@ -293,7 +207,7 @@
 							    </p>
 							  </div>
 
-							    <div class="testimonial-card-bordered">
+							    <div class="testimonial-card">
 							    <img src="images/devans.jpeg" alt="Name" class="testimonial-photo">
 							    <h3 class="testimonial-name">David Evans</h3>
 							    <p class="testimonial-title">VP, Global Advertising</p>
@@ -303,7 +217,7 @@
 							      stakeholders with big picture thinking. ”
 							    </p>
 							  </div>
-														    <div class="testimonial-card-bordered">
+														    <div class="testimonial-card">
 							    <img src="images/agermain.jpeg" alt="Name" class="testimonial-photo">
 							    <h3 class="testimonial-name">Alison Germain</h3>
 							    <p class="testimonial-title">Leadership Coach </p>
@@ -333,34 +247,6 @@
 		</div>
 
 		<!-- Scripts -->
-		
-
-<script>
-  function scrollCarousel(direction) {
-    const carousel = document.getElementById('testimonialCarousel');
-    const scrollAmount = 340;
-    carousel.scrollBy({
-      left: direction === 'left' ? -scrollAmount : scrollAmount,
-      behavior: 'smooth'
-    });
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.read-more-toggle').forEach(toggle => {
-      toggle.addEventListener('click', () => {
-        const card = toggle.closest('.testimonial-card');
-        const snippet = card.querySelector('.testimonial-snippet');
-        const full = card.querySelector('.testimonial-full');
-
-        const isExpanded = full.style.display === 'block';
-        full.style.display = isExpanded ? 'none' : 'block';
-        snippet.style.display = isExpanded ? 'block' : 'none';
-        toggle.textContent = isExpanded ? 'Read more' : 'Read less';
-      });
-    });
-  });
-</script>
-
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
