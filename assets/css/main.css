@@ -2323,6 +2323,15 @@ input, select, textarea {
   display: inline-block;
   margin-top: 0.5rem;
 }
+@media (max-width: 768px) {
+  .longform-testimonial {
+    flex: 0 0 100%; /* Show 1 testimonial at a time on mobile */
+  }
+
+  .testimonial-carousel {
+    gap: 1rem; /* Optional: tighter spacing on mobile */
+  }
+}
 
 /* Section/Article */
 
